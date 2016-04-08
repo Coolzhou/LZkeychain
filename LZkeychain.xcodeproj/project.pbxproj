@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A4F5471CB78534004B2BDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F5461CB78534004B2BDD /* main.m */; };
+		18A4F54A1CB78534004B2BDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F5491CB78534004B2BDD /* AppDelegate.m */; };
+		18A4F54D1CB78534004B2BDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F54C1CB78534004B2BDD /* ViewController.m */; };
+		18A4F5501CB78534004B2BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4F54E1CB78534004B2BDD /* Main.storyboard */; };
+		18A4F5521CB78534004B2BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A4F5511CB78534004B2BDD /* Assets.xcassets */; };
+		18A4F5551CB78534004B2BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4F5531CB78534004B2BDD /* LaunchScreen.storyboard */; };
+		18A4F5601CB78534004B2BDD /* LZkeychainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F55F1CB78534004B2BDD /* LZkeychainTests.m */; };
+		18A4F56B1CB78534004B2BDD /* LZkeychainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F56A1CB78534004B2BDD /* LZkeychainUITests.m */; };
+		18A4F5791CB786DB004B2BDD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A4F5781CB786DB004B2BDD /* Security.framework */; };
+		18A4F57C1CB7874F004B2BDD /* WQUserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F57B1CB7874F004B2BDD /* WQUserDataManager.m */; };
+		18A4F57F1CB788BB004B2BDD /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F57E1CB788BB004B2BDD /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18A4F5821CB78A04004B2BDD /* WQKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F5811CB78A04004B2BDD /* WQKeyChain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A4F55C1CB78534004B2BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A4F53A1CB78533004B2BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A4F5411CB78534004B2BDD;
+			remoteInfo = LZkeychain;
+		};
+		18A4F5671CB78534004B2BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A4F53A1CB78533004B2BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A4F5411CB78534004B2BDD;
+			remoteInfo = LZkeychain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A4F5421CB78534004B2BDD /* LZkeychain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZkeychain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A4F5461CB78534004B2BDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A4F5481CB78534004B2BDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A4F5491CB78534004B2BDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A4F54B1CB78534004B2BDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A4F54C1CB78534004B2BDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A4F54F1CB78534004B2BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A4F5511CB78534004B2BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A4F5541CB78534004B2BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A4F5561CB78534004B2BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A4F55B1CB78534004B2BDD /* LZkeychainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZkeychainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A4F55F1CB78534004B2BDD /* LZkeychainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZkeychainTests.m; sourceTree = "<group>"; };
+		18A4F5611CB78534004B2BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A4F5661CB78534004B2BDD /* LZkeychainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZkeychainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A4F56A1CB78534004B2BDD /* LZkeychainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZkeychainUITests.m; sourceTree = "<group>"; };
+		18A4F56C1CB78534004B2BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A4F5781CB786DB004B2BDD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18A4F57A1CB7874F004B2BDD /* WQUserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQUserDataManager.h; sourceTree = "<group>"; };
+		18A4F57B1CB7874F004B2BDD /* WQUserDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQUserDataManager.m; sourceTree = "<group>"; };
+		18A4F57D1CB788BB004B2BDD /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		18A4F57E1CB788BB004B2BDD /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		18A4F5801CB78A04004B2BDD /* WQKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQKeyChain.h; sourceTree = "<group>"; };
+		18A4F5811CB78A04004B2BDD /* WQKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQKeyChain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A4F53F1CB78534004B2BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A4F5791CB786DB004B2BDD /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A4F5581CB78534004B2BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A4F5631CB78534004B2BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A4F5391CB78533004B2BDD = {
+			isa = PBXGroup;
+			children = (
+				18A4F5781CB786DB004B2BDD /* Security.framework */,
+				18A4F5441CB78534004B2BDD /* LZkeychain */,
+				18A4F55E1CB78534004B2BDD /* LZkeychainTests */,
+				18A4F5691CB78534004B2BDD /* LZkeychainUITests */,
+				18A4F5431CB78534004B2BDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A4F5431CB78534004B2BDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A4F5421CB78534004B2BDD /* LZkeychain.app */,
+				18A4F55B1CB78534004B2BDD /* LZkeychainTests.xctest */,
+				18A4F5661CB78534004B2BDD /* LZkeychainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A4F5441CB78534004B2BDD /* LZkeychain */ = {
+			isa = PBXGroup;
+			children = (
+				18A4F57D1CB788BB004B2BDD /* KeychainItemWrapper.h */,
+				18A4F57E1CB788BB004B2BDD /* KeychainItemWrapper.m */,
+				18A4F5481CB78534004B2BDD /* AppDelegate.h */,
+				18A4F5491CB78534004B2BDD /* AppDelegate.m */,
+				18A4F5801CB78A04004B2BDD /* WQKeyChain.h */,
+				18A4F5811CB78A04004B2BDD /* WQKeyChain.m */,
+				18A4F57A1CB7874F004B2BDD /* WQUserDataManager.h */,
+				18A4F57B1CB7874F004B2BDD /* WQUserDataManager.m */,
+				18A4F54B1CB78534004B2BDD /* ViewController.h */,
+				18A4F54C1CB78534004B2BDD /* ViewController.m */,
+				18A4F54E1CB78534004B2BDD /* Main.storyboard */,
+				18A4F5511CB78534004B2BDD /* Assets.xcassets */,
+				18A4F5531CB78534004B2BDD /* LaunchScreen.storyboard */,
+				18A4F5561CB78534004B2BDD /* Info.plist */,
+				18A4F5451CB78534004B2BDD /* Supporting Files */,
+			);
+			path = LZkeychain;
+			sourceTree = "<group>";
+		};
+		18A4F5451CB78534004B2BDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A4F5461CB78534004B2BDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A4F55E1CB78534004B2BDD /* LZkeychainTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A4F55F1CB78534004B2BDD /* LZkeychainTests.m */,
+				18A4F5611CB78534004B2BDD /* Info.plist */,
+			);
+			path = LZkeychainTests;
+			sourceTree = "<group>";
+		};
+		18A4F5691CB78534004B2BDD /* LZkeychainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A4F56A1CB78534004B2BDD /* LZkeychainUITests.m */,
+				18A4F56C1CB78534004B2BDD /* Info.plist */,
+			);
+			path = LZkeychainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A4F5411CB78534004B2BDD /* LZkeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A4F56F1CB78534004B2BDD /* Build configuration list for PBXNativeTarget "LZkeychain" */;
+			buildPhases = (
+				18A4F53E1CB78534004B2BDD /* Sources */,
+				18A4F53F1CB78534004B2BDD /* Frameworks */,
+				18A4F5401CB78534004B2BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZkeychain;
+			productName = LZkeychain;
+			productReference = 18A4F5421CB78534004B2BDD /* LZkeychain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A4F55A1CB78534004B2BDD /* LZkeychainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A4F5721CB78534004B2BDD /* Build configuration list for PBXNativeTarget "LZkeychainTests" */;
+			buildPhases = (
+				18A4F5571CB78534004B2BDD /* Sources */,
+				18A4F5581CB78534004B2BDD /* Frameworks */,
+				18A4F5591CB78534004B2BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A4F55D1CB78534004B2BDD /* PBXTargetDependency */,
+			);
+			name = LZkeychainTests;
+			productName = LZkeychainTests;
+			productReference = 18A4F55B1CB78534004B2BDD /* LZkeychainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A4F5651CB78534004B2BDD /* LZkeychainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A4F5751CB78534004B2BDD /* Build configuration list for PBXNativeTarget "LZkeychainUITests" */;
+			buildPhases = (
+				18A4F5621CB78534004B2BDD /* Sources */,
+				18A4F5631CB78534004B2BDD /* Frameworks */,
+				18A4F5641CB78534004B2BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A4F5681CB78534004B2BDD /* PBXTargetDependency */,
+			);
+			name = LZkeychainUITests;
+			productName = LZkeychainUITests;
+			productReference = 18A4F5661CB78534004B2BDD /* LZkeychainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A4F53A1CB78533004B2BDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MDJ;
+				TargetAttributes = {
+					18A4F5411CB78534004B2BDD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18A4F55A1CB78534004B2BDD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18A4F5411CB78534004B2BDD;
+					};
+					18A4F5651CB78534004B2BDD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18A4F5411CB78534004B2BDD;
+					};
+				};
+			};
+			buildConfigurationList = 18A4F53D1CB78534004B2BDD /* Build configuration list for PBXProject "LZkeychain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A4F5391CB78533004B2BDD;
+			productRefGroup = 18A4F5431CB78534004B2BDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A4F5411CB78534004B2BDD /* LZkeychain */,
+				18A4F55A1CB78534004B2BDD /* LZkeychainTests */,
+				18A4F5651CB78534004B2BDD /* LZkeychainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A4F5401CB78534004B2BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A4F5551CB78534004B2BDD /* LaunchScreen.storyboard in Resources */,
+				18A4F5521CB78534004B2BDD /* Assets.xcassets in Resources */,
+				18A4F5501CB78534004B2BDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A4F5591CB78534004B2BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A4F5641CB78534004B2BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A4F53E1CB78534004B2BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A4F54D1CB78534004B2BDD /* ViewController.m in Sources */,
+				18A4F5821CB78A04004B2BDD /* WQKeyChain.m in Sources */,
+				18A4F54A1CB78534004B2BDD /* AppDelegate.m in Sources */,
+				18A4F57C1CB7874F004B2BDD /* WQUserDataManager.m in Sources */,
+				18A4F57F1CB788BB004B2BDD /* KeychainItemWrapper.m in Sources */,
+				18A4F5471CB78534004B2BDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A4F5571CB78534004B2BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A4F5601CB78534004B2BDD /* LZkeychainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A4F5621CB78534004B2BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A4F56B1CB78534004B2BDD /* LZkeychainUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A4F55D1CB78534004B2BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A4F5411CB78534004B2BDD /* LZkeychain */;
+			targetProxy = 18A4F55C1CB78534004B2BDD /* PBXContainerItemProxy */;
+		};
+		18A4F5681CB78534004B2BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A4F5411CB78534004B2BDD /* LZkeychain */;
+			targetProxy = 18A4F5671CB78534004B2BDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A4F54E1CB78534004B2BDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A4F54F1CB78534004B2BDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A4F5531CB78534004B2BDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A4F5541CB78534004B2BDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A4F56D1CB78534004B2BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A4F56E1CB78534004B2BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A4F5701CB78534004B2BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZkeychain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarks.LZkeychain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A4F5711CB78534004B2BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZkeychain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarks.LZkeychain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A4F5731CB78534004B2BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZkeychainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarks.LZkeychainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZkeychain.app/LZkeychain";
+			};
+			name = Debug;
+		};
+		18A4F5741CB78534004B2BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZkeychainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarks.LZkeychainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZkeychain.app/LZkeychain";
+			};
+			name = Release;
+		};
+		18A4F5761CB78534004B2BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZkeychainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarks.LZkeychainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZkeychain;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18A4F5771CB78534004B2BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZkeychainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarks.LZkeychainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZkeychain;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A4F53D1CB78534004B2BDD /* Build configuration list for PBXProject "LZkeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A4F56D1CB78534004B2BDD /* Debug */,
+				18A4F56E1CB78534004B2BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A4F56F1CB78534004B2BDD /* Build configuration list for PBXNativeTarget "LZkeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A4F5701CB78534004B2BDD /* Debug */,
+				18A4F5711CB78534004B2BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A4F5721CB78534004B2BDD /* Build configuration list for PBXNativeTarget "LZkeychainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A4F5731CB78534004B2BDD /* Debug */,
+				18A4F5741CB78534004B2BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A4F5751CB78534004B2BDD /* Build configuration list for PBXNativeTarget "LZkeychainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A4F5761CB78534004B2BDD /* Debug */,
+				18A4F5771CB78534004B2BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A4F53A1CB78533004B2BDD /* Project object */;
+}
