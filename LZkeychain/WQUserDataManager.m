@@ -5,10 +5,11 @@
 //  Created by apple on 16/4/8.
 //  Copyright © 2016年 MDJ. All rights reserved.
 
-
 #import "WQUserDataManager.h"
 #import "WQKeyChain.h"
 @implementation WQUserDataManager
+
+
 
 static NSString * const KEY_IN_KEYCHAIN = @"com.wuqian.app.allinfo";
 static NSString * const KEY_PASSWORD = @"com.wuqian.app.password";
